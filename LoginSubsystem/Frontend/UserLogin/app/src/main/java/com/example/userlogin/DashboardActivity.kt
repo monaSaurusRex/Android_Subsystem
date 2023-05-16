@@ -23,6 +23,7 @@ class DashboardActivity : AppCompatActivity() {
 
         btnLogout.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
+//            startActivity(Intent(this, LogoutActivity::class.java))
         }
     }
 }

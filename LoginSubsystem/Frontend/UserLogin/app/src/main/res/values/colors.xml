@@ -2,8 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorPrimary">#884A6F</color>
     <color name="colorPrimaryDark">#462B45</color>
+    <color name="colorPrimary">#80425B</color>
+    <color name="red">#B86063</color>
+    <color name="orangeDark">#E48960</color>
+    <color name="orangeLight">#FBBD5F</color>
+    <color name="yellow">#F9F871</color>
     <color name="colorAccent">#FFFCFE</color>
-    <color name="colorDanger">#b86063</color>
+
+<!--    <color name="colorDanger">#b86063</color> -->
 </resources>

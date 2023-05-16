@@ -7,7 +7,7 @@
     </style>
 
     <style name="Button.Red" parent="Theme.AppCompat">
-        <item name="colorPrimary">@color/colorDanger</item>
+        <item name="colorPrimary">@color/red</item>
     </style>
 
     <style name="Theme.UserLogin" parent="Base.Theme.UserLogin" />
