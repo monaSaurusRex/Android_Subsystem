@@ -24,8 +24,8 @@
             android:layout_centerHorizontal="true"
             android:layout_marginStart="10dp"
             android:layout_marginVertical="10dp"
-            android:tint="@color/colorPrimaryDark"
-            android:src="@drawable/ic_camera_spin"/>
+            android:src="@drawable/ic_camera_spin"
+            app:tint="@color/colorPrimaryDark"/>
 
         <TextView
             android:id="@+id/tvWelcome"
@@ -40,42 +40,23 @@
             android:textStyle="bold"/>
     </RelativeLayout>
 
-<!--    <RelativeLayout-->
-<!--        android:id="@+id/mainCategories"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@id/header"-->
-<!--        android:gravity="center">-->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNav" />
 
-<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
-<!--&lt;!&ndash;            android:id="@+id/tvWelcome"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:text="Here is you dashboard"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:textColor="@color/colorPrimary"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:textSize="30sp" />&ndash;&gt;-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/tvTitle"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:fontFamily="bold"-->
-<!--            android:padding="10dp"-->
-<!--            android:text="@string/app_name"-->
-<!--            android:textColor="@color/colorPrimaryDark"-->
-<!--            android:textSize="50dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:layout_centerInParent="true"/>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/tvSubtitle"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="USER DASHBOARD"-->
-<!--            android:textColor="#000"-->
-<!--            android:textSize="20sp"-->
-<!--            android:textStyle="bold" />-->
-<!--    </RelativeLayout>-->
-
-
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="411dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:foregroundTint="#770000"
+        android:scrollIndicators="left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav" />
 </RelativeLayout>
