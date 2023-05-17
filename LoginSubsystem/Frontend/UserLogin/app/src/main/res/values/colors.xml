@@ -9,6 +9,6 @@
     <color name="orangeDark">#E48960</color>
     <color name="orangeLight">#FBBD5F</color>
     <color name="yellow">#F9F871</color>
-    <color name="colorAccent">#FBFAF5</color>
     <color name="colorBg">#eaeaea</color>
+    <color name="colorAccent">#FFFCFE</color>
 </resources>
