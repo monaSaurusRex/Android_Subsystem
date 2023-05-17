@@ -16,13 +16,13 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        welcomeText ="Welcome "+ getIntent().getStringExtra("Username").toString() + "!";
-        tvWelcome = this.findViewById(R.id.tvWelcome);
-        tvWelcome.setText(welcomeText);
-        btnLogout = findViewById(R.id.btnLogout)
+//        welcomeText ="Welcome "+ getIntent().getStringExtra("Username").toString() + "!";
+//        tvWelcome = this.findViewById(R.id.tvWelcome);
+//        tvWelcome.setText(welcomeText);
+//        btnLogout = findViewById(R.id.btnLogout)
 
-        btnLogout.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
-        }
+//        btnLogout.setOnClickListener {
+//            startActivity(Intent(this, LoginActivity::class.java))
+//        }
     }
 }
